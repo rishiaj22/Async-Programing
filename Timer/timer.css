@@ -1,0 +1,70 @@
+body {
+    background: url("https://cdn.dribbble.com/users/1162077/screenshots/5427775/timer-animation.gif");
+    background-position: -19%;
+    background-position-y:  -20%;
+}
+#heading{
+    text-align: center;
+    margin-top: 10rem;
+}
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    color: rgb(84, 84, 84);
+}
+h4{
+    text-align: center;
+    color: rgb(84, 84, 84);
+}
+#timer{
+    width: 20rem;
+    height: 9rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#inputBox{
+    width: 15rem;
+    height: 2rem;
+    margin: auto;
+    margin-top: 20px;
+}
+input{
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+#buttons{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    padding: 10px;
+    position: absolute;
+    margin-top: 17rem;
+}
+#buttons button{
+    cursor: pointer;
+    margin:10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#start{
+    background-color: green;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+#stop{
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+#reset{
+    background-color: rgb(88, 167, 167);
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
